@@ -5,7 +5,7 @@
     /* border: 1px solid white; */
 }
 body{
-    background-image: linear-gradient(35deg, #750332 5%, #160C2E 50%,  #0C1385 100%) ;
+    background-image: linear-gradient(35deg, rgb(160, 94, 15) 0%, rgb(4, 5, 37) 50%,  black 100%) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -27,11 +27,11 @@ body{
     text-decoration: none;
 }
 .navbar .navList li:hover{
-    color: red;
+    color: rgb(255, 140, 0);
     font-weight: 600;
     padding: 7px 10px 5px 10px;
     border-radius: 20px;
-    border: solid 2px red;
+    border: solid 2px rgb(255, 140, 0);
     
 }
 .navbar .hireMe{
@@ -39,7 +39,7 @@ body{
     color: white;
     padding: 7px 20px;
     border-radius: 20px;
-    border: solid 2px red;
+    border: solid 2px rgb(255, 140, 0);
 }
 .navbar .helpMe:hover{
     background-color: rgba(255, 255, 255, 0.415);
@@ -47,10 +47,10 @@ body{
     /* padding: 7px 30px; */
 }
 .navbar h2 span{
-    color: red;
+    color: rgb(255, 140, 0);
 }
 section{
-    padding: 100px;
+    padding:80px 100px;
     display: flex;
     justify-content:space-between;
 }
@@ -65,21 +65,21 @@ section{
     margin: 10px 0;
 }
 .container1 .redTxt{
-    color: red;
+    color: rgb(255, 140, 0);
 }
 
 .container2 .myImage{
     border: solid 10px transparent;
     /* width: 100%; */
-    width: 450px;
+    width: 420px;
     background-image: url(./media/mypic.png);
-    height: 60vh;
+    height: 58vh;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
     border-bottom:20px solid #0C1385 ;
     border-left:15px solid white;
-    border-top: 7px solid  red;
+    border-top: 7px solid  rgb(255, 140, 0);
     border-right: 15px solid white;
     border-radius: 50%;
 }
@@ -96,14 +96,14 @@ section{
     border-radius: 20px;
     color: white;
     background-color:transparent;
-    border: 2px solid red;
+    border: 2px solid rgb(255, 140, 0);
 }
 .contactCon .seePortfolio{
-    background-color:red;
+    background-color:rgb(255, 140, 0);
 }
 .contactCon .seePortfolio:hover{
     background-color:transparent;
 }
 .contactCon .contactMe:hover{
-    background-color: red;
+    background-color: rgb(255, 140, 0);
 }
