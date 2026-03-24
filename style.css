@@ -58,6 +58,7 @@ section{
 .container1 p{
     font-weight: 600;
     margin: 50px 0;
+    font-size: 20px;
 }
 .container1 h1{
     font-size: 60px;
@@ -70,10 +71,39 @@ section{
 .container2 .myImage{
     border: solid 10px transparent;
     /* width: 100%; */
-    width: 400px;
+    width: 450px;
     background-image: url(./media/mypic.png);
     height: 60vh;
-    background-position: center;
-    /* background-size:contain; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-bottom:20px solid #0C1385 ;
+    border-left:15px solid white;
+    border-top: 7px solid  red;
+    border-right: 15px solid white;
+    border-radius: 50%;
+}
+.contactCon{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    margin: 30px 0;
+}
+.contactCon button{
+    width: 250px;
+    padding: 10px;
+    text-transform: uppercase;  
     border-radius: 20px;
+    color: white;
+    background-color:transparent;
+    border: 2px solid red;
+}
+.contactCon .seePortfolio{
+    background-color:red;
+}
+.contactCon .seePortfolio:hover{
+    background-color:transparent;
+}
+.contactCon .contactMe:hover{
+    background-color: red;
 }
