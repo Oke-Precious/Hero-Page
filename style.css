@@ -34,7 +34,7 @@ body{
     border: solid 2px red;
     
 }
-.navbar .helpMe{
+.navbar .hireMe{
     background-color: transparent;
     color: white;
     padding: 7px 20px;
@@ -50,20 +50,30 @@ body{
     color: red;
 }
 section{
-    padding: 50px;
+    padding: 100px;
+    display: flex;
+    justify-content:space-between;
 }
-.container1{
-    padding: 100px 50px;
-}
+
 .container1 p{
     font-weight: 600;
     margin: 50px 0;
 }
 .container1 h1{
-    font-size: 30px;
+    font-size: 60px;
     margin: 10px 0;
-    font-size: 40px;
 }
 .container1 .redTxt{
     color: red;
+}
+
+.container2 .myImage{
+    border: solid 10px transparent;
+    /* width: 100%; */
+    width: 400px;
+    background-image: url(./media/mypic.png);
+    height: 60vh;
+    background-position: center;
+    /* background-size:contain; */
+    border-radius: 20px;
 }
